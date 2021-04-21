@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-typedef float num_real;
+typedef float num_real; //typedef: define um novo nome para um determinado tipo
 typedef int medida;
 typedef medida altura;
 altura alt=20;
@@ -10,7 +10,7 @@ int main (void){
 	return(0);
 }
 
-typedef struct moldura{    
+typedef struct moldura{     //struct: ao armazenar os dados de uma mesma entidade, isso possa ser feito c uma unica variavel
     int bv;
     char contentRAM;
 } frame;
