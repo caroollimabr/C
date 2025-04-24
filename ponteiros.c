@@ -10,6 +10,7 @@ int main(){
     printf("valor num: %d\n", num);
     printf("valor *pont: %d\n", *pont);
     printf("endereco pont: %x\n", pont);
+    //& pega o endereco de memoria
     printf("endereco &pont: %x\n\n", &pont);
     
     *pont = 11;
